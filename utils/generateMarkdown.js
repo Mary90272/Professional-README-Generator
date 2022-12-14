@@ -6,10 +6,10 @@
 
 
 
-function renderLicenseBadge(license) {
-  let licenseBadge = license;
-  if (license !== 'No license') {
-    switch (license) {
+function renderLicenseBadge(licenseBadge) {
+  //let licenseBadge = license;
+  if (licenseBadge !== 'No license') {
+    switch (licenseBadge) {
       case 'Apache 2.0':
         licenseBadge = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) `;
         break;
@@ -35,10 +35,10 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {
-  let licenseLink = license
-  if (license !== 'No license') {
-    switch (license) {
+function renderLicenseLink(licenseLink) {
+  //let licenseLink = license
+  if (licenseLink !== 'No license') {
+    switch (licenseLink) {
       case 'Apache 2.0':
         
         licenseLink = `(https://opensource.org/licenses/Apache-2.0)`;
@@ -67,7 +67,7 @@ function renderLicenseSection(license) {
 
   if (license !== 'No license') {
     return `
-        ${renderLicenseBadge(license)}${renderLicenseLink(license)}
+        ${renderLicenseBadge(license)} & ${renderLicenseLink(license)}
         `;
   } else {
     return ' ';
