@@ -10,17 +10,17 @@ function renderLicenseBadge(license) {
   let licenseBadge = license;
   if (license !== 'No license') {
     switch (license) {
-      case 'Apache ':
-        licenseBadge = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]`;
+      case 'Apache 2.0':
+        licenseBadge = `![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)`;
         break;
       case 'BSD 3':
-        licenseBadge = `[![License] (https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)]`;
+        licenseBadge = `![License] (https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)`;
         break;
-      case 'GNU GPLv3.0':
-        licenseBadge = `[![License] (https://img.shields.io/badge/License-GPLv3-blue.svg)]`;
+      case 'GNU GPLv3':
+        licenseBadge = `![License] (https://img.shields.io/badge/License-GPLv3-blue.svg)`;
         break;
       case 'MIT':
-        licenseBadge = `[![License] https://img.shields.io/badge/License-MIT-yellow.svg)]`;
+        licenseBadge = `![License] https://img.shields.io/badge/License-MIT-yellow.svg)`;
         break;
       default:
         break;
@@ -43,10 +43,10 @@ function renderLicenseLink(license) {
         //console.log("Hello");
         licenseLink = `(https://opensource.org/licenses/Apache-2.0)`;
         break;
-      case 'BSD 3-Clause':
+      case 'BSD 3':
         licenseLink = `(https://opensource.org/licenses/BSD-3-Clause)`;
         break;
-      case 'GNU GPLv3.0':
+      case 'GNU GPLv3':
         licenseLink = `(https://www.gnu.org/licenses/gpl-3.0)`;
         break;
       case 'MIT':
@@ -67,7 +67,7 @@ function renderLicenseSection(license) {
 
   if (license !== 'No license') {
     return `
-       following license: ${renderLicenseBadge(license)}${renderLicenseLink(license)}
+        ${renderLicenseBadge(license)}${renderLicenseLink(license)}
         `;
   } else {
     return ' ';
