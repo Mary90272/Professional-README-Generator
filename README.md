@@ -16,4 +16,4 @@ This is a A node.js application that uses user input from inquirer to populate a
  ## Video showing the functionality of the application
 
 
- ![ Alt text](assets/video/readme_video.gif)
+ ![ Alt text](assets/video/video_readme.gif)
