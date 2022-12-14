@@ -1,8 +1,8 @@
 # Good README
  
-  [![License] (https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) 
+  [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
   ## Description
-  Easy README Creator
+  Easy README creator
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -13,7 +13,7 @@
   ## Installation
   install inquirer 8.2.4
   ## Usage
-  Follow by instruction
+  Follow By Instruction
   ## Contribution
   N/A
   ## Tests
@@ -26,6 +26,6 @@
   Copyright (c) [Mary90272](https://github.com/Mary90272). All rights reserved.
   
   Licensed under  
-        [![License] (https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)  & (https://www.gnu.org/licenses/gpl-3.0)
+       [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) & BSD 3
          license.
   
