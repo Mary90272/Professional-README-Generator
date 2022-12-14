@@ -11,16 +11,16 @@ function renderLicenseBadge(license) {
   if (license !== 'No license') {
     switch (license) {
       case 'Apache 2.0':
-        licenseBadge = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]`;
+        licenseBadge = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) `;
         break;
       case 'BSD 3':
-        licenseBadge = `[![License] (https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)]`;
+        licenseBadge = `[![License] (https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`;
         break;
       case 'GNU GPLv3':
-        licenseBadge = `[![License] (https://img.shields.io/badge/License-GPLv3-blue.svg)]`;
+        licenseBadge = `[![License] (https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) `;
         break;
       case 'MIT':
-        licenseBadge = `[![License] https://img.shields.io/badge/License-MIT-yellow.svg)]`;
+        licenseBadge = `[![License] https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) `;
         break;
       default:
         break;
@@ -40,7 +40,7 @@ function renderLicenseLink(license) {
   if (license !== 'No license') {
     switch (license) {
       case 'Apache 2.0':
-        //console.log("Hello");
+        
         licenseLink = `(https://opensource.org/licenses/Apache-2.0)`;
         break;
       case 'BSD 3':
@@ -78,7 +78,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
  
-  ${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
+  ${renderLicenseBadge(data.license)}
   ## Description
   ${data.description}
   ## Table of Contents
@@ -103,7 +103,7 @@ function generateMarkdown(data) {
   ## License
   Copyright (c) [${data.github}](https://github.com/${data.github}). All rights reserved.
   
-  Licensed under the  ${renderLicenseSection(data.license)} license.
+  Licensed under  ${renderLicenseSection(data.license)} license.
   
 `;
 }
