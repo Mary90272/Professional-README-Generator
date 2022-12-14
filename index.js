@@ -66,7 +66,7 @@ const questions = [{
         name: 'license',
         message: 'Choose a license for your project?',
         choices: [ "Apache","BSD 3", "GNU GPLv3", "MIT",  "No license"]
-           // if (value) { return true } else { return 'Please choose a license.' }
+           // validate: (value) => { if (value) { return true } else { return 'Please choose a license.' }
        // },
     },
     {
