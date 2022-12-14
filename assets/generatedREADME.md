@@ -1,6 +1,6 @@
 # Good README
  
-  ![License] (https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)(https://opensource.org/licenses/BSD-3-Clause)
+  [![License] https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
   Easy README creator
   ## Table of Contents
@@ -15,9 +15,9 @@
   ## Usage
   Follow by instruction
   ## Contribution
-  n/a
+  N/A
   ## Tests
-  n/a
+  N/A
   ## Questions
   * Checkout my [GitHub profile](https://github.com/Mary90272)
   
@@ -26,6 +26,6 @@
   Copyright (c) [Mary90272](https://github.com/Mary90272). All rights reserved.
   
   Licensed under the  
-        ![License] (https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)(https://opensource.org/licenses/BSD-3-Clause)
+        [![License] https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
          license.
   
