@@ -9,5 +9,11 @@ This is a A node.js application that uses user input from inquirer to populate a
  5.Download Inquirer package by entering npm install inquirer@8.2.4<br>
  6.Enter node index.js<br>
  
-# Usage
+# Preview 
+## Images README 
+ ![alt text](assets/img/Screenshot_readme.png)
+ 
+ ## Video showing the functionality of the application
+
+
  ![ Alt text](assets/video/readme_video.gif)
