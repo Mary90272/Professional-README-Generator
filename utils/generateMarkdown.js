@@ -1,26 +1,26 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-//https://img.shields.io/badge/Apache-2.0-brightgreen.svg
+//
 
 
 
 
 
 function renderLicenseBadge(licenseBadge) {
-  //let licenseBadge = license;
+
   if (licenseBadge !== 'No license') {
     switch (licenseBadge) {
-      case 'Apache 2.0':
-        licenseBadge = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) `;
+      case 'Apache':
+        licenseBadge = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
         break;
       case 'BSD 3':
-        licenseBadge = `[![License] (https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`;
+        licenseBadge = `[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`;
         break;
-      case 'GNU GPLv3':
-        licenseBadge = `[![License] (https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) `;
+      case 'GNU GPLv3.0':
+        licenseBadge = `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`;
         break;
       case 'MIT':
-        licenseBadge = `[![License] https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) `;
+        licenseBadge = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
         break;
       default:
         break;
@@ -36,17 +36,17 @@ function renderLicenseBadge(licenseBadge) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(licenseLink) {
-  //let licenseLink = license
+
   if (licenseLink !== 'No license') {
     switch (licenseLink) {
       case 'Apache 2.0':
-        
+        //console.log("Hello");
         licenseLink = `(https://opensource.org/licenses/Apache-2.0)`;
         break;
-      case 'BSD 3':
+      case 'BSD 3-Clause':
         licenseLink = `(https://opensource.org/licenses/BSD-3-Clause)`;
         break;
-      case 'GNU GPLv3':
+      case 'GNU GPLv3.0':
         licenseLink = `(https://www.gnu.org/licenses/gpl-3.0)`;
         break;
       case 'MIT':
@@ -67,7 +67,7 @@ function renderLicenseSection(license) {
 
   if (license !== 'No license') {
     return `
-        ${renderLicenseBadge(license)} & ${renderLicenseLink(license)}
+       ${renderLicenseBadge(license)} & ${renderLicenseLink(license)}
         `;
   } else {
     return ' ';
