@@ -2,7 +2,7 @@
  
   [![License] (https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) 
   ## Description
-  Easy README creator
+  Easy README Creator
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -26,6 +26,6 @@
   Copyright (c) [Mary90272](https://github.com/Mary90272). All rights reserved.
   
   Licensed under  
-        [![License] (https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) (https://www.gnu.org/licenses/gpl-3.0)
+        [![License] (https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)  & (https://www.gnu.org/licenses/gpl-3.0)
          license.
   
