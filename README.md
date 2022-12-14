@@ -17,3 +17,5 @@ This is a A node.js application that uses user input from inquirer to populate a
 
 
  ![ Alt text](assets/video/video_readme.gif)
+ 
+ ## Link video : https://drive.google.com/file/d/1Cba9dgin9XJLtNedZ51ct1QHxDYzTc4J/view
