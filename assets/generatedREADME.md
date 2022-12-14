@@ -1,6 +1,6 @@
 # Good README
  
-  [![License] https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License] (https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) 
   ## Description
   Easy README creator
   ## Table of Contents
@@ -25,7 +25,7 @@
   ## License
   Copyright (c) [Mary90272](https://github.com/Mary90272). All rights reserved.
   
-  Licensed under the  
-        [![License] https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  Licensed under  
+        [![License] (https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) (https://www.gnu.org/licenses/gpl-3.0)
          license.
   
